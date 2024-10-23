@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="engine">
+      <UniqueIdentifier>{FBDB78FB-E77D-A3D1-D038-B725BC792A22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\entity">
+      <UniqueIdentifier>{0754B26F-7314-2EA6-3C4F-7723A8CE7282}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="MyWindow.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="engine\entity\Entity_struct.h">
+      <Filter>engine\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\entity\Mesh.h">
+      <Filter>engine\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\entity\Texture.h">
+      <Filter>engine\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\entity\Transform.h">
+      <Filter>engine\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="MyWindow.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="engine\entity\Mesh.cpp">
+      <Filter>engine\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\entity\Texture.cpp">
+      <Filter>engine\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="assimp-vc143-mtd.dll" />
+    <None Include="glew32.dll" />
+    <None Include="glfw3.dll" />
+  </ItemGroup>
+</Project>

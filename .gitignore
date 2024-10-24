@@ -4,7 +4,7 @@
 bin/
 bin-int/
 
-!bin/premake
+!vendor/bin/premake
 
 
 #File
